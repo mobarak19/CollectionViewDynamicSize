@@ -13,6 +13,12 @@
 		20D49CD3287E962F0046E07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D49CD1287E962F0046E07D /* Main.storyboard */; };
 		20D49CD5287E96300046E07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D49CD4287E96300046E07D /* Assets.xcassets */; };
 		20D49CD8287E96300046E07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D49CD6287E96300046E07D /* LaunchScreen.storyboard */; };
+		20D49CE0287E993E0046E07D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D49CDF287E993E0046E07D /* CommentCell.swift */; };
+		20D49CE2287E9B060046E07D /* CommentFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D49CE1287E9B060046E07D /* CommentFlowLayout.swift */; };
+		20D49CE4287E9F8A0046E07D /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D49CE3287E9F8A0046E07D /* SecondVC.swift */; };
+		20D49CE6287EA0090046E07D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D49CE5287EA0090046E07D /* FeedCell.swift */; };
+		20D49CE8287EA0790046E07D /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D49CE7287EA0790046E07D /* PinterestLayout.swift */; };
+		20D49CEA287EA2270046E07D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D49CE9287EA2270046E07D /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		20D49CD4287E96300046E07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20D49CD7287E96300046E07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20D49CD9287E96300046E07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D49CDF287E993E0046E07D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		20D49CE1287E9B060046E07D /* CommentFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentFlowLayout.swift; sourceTree = "<group>"; };
+		20D49CE3287E9F8A0046E07D /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		20D49CE5287EA0090046E07D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		20D49CE7287EA0790046E07D /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		20D49CE9287EA2270046E07D /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				20D49CD4287E96300046E07D /* Assets.xcassets */,
 				20D49CD6287E96300046E07D /* LaunchScreen.storyboard */,
 				20D49CD9287E96300046E07D /* Info.plist */,
+				20D49CDF287E993E0046E07D /* CommentCell.swift */,
+				20D49CE1287E9B060046E07D /* CommentFlowLayout.swift */,
+				20D49CE3287E9F8A0046E07D /* SecondVC.swift */,
+				20D49CE5287EA0090046E07D /* FeedCell.swift */,
+				20D49CE7287EA0790046E07D /* PinterestLayout.swift */,
+				20D49CE9287EA2270046E07D /* Photo.swift */,
 			);
 			path = CollectionViewDynamicSize;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D49CE6287EA0090046E07D /* FeedCell.swift in Sources */,
 				20D49CD0287E962F0046E07D /* ViewController.swift in Sources */,
+				20D49CE2287E9B060046E07D /* CommentFlowLayout.swift in Sources */,
+				20D49CEA287EA2270046E07D /* Photo.swift in Sources */,
 				20D49CCC287E962F0046E07D /* AppDelegate.swift in Sources */,
+				20D49CE8287EA0790046E07D /* PinterestLayout.swift in Sources */,
 				20D49CCE287E962F0046E07D /* SceneDelegate.swift in Sources */,
+				20D49CE4287E9F8A0046E07D /* SecondVC.swift in Sources */,
+				20D49CE0287E993E0046E07D /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
